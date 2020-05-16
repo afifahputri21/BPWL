@@ -1,0 +1,18 @@
+<?php 
+include 'database2.php';
+$db = new database();
+ 
+$aksi = $_GET['aksi'];
+ if($aksi == "tambah"){
+ 	$db->input($_POST['nama'],$_POST['agama'],$_POST['nik']);
+ 	header("location:tampil2.php");
+ }
+ elseif($aksi == "hapus"){ 	
+ 	$db->hapus($_GET['id']);
+	header("location:tampil2.php");
+ }
+ elseif($aksi == "update"){
+ 	$db->update($_POST['id'],$_POST['nama'],$_POST['agama'],$_POST['nik']);
+ 	header("location:tampil2.php");
+ }
+?>
