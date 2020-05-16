@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-	<title>Masukkan Data Perpustakaan</title>
+	<title>Masukkan Data Perpustakaan Digital PCR</title>
 	<title>Table VO5</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
